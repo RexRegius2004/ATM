@@ -11,6 +11,8 @@ namespace ATM
         public static void CheckBalance() 
         {
             Console.WriteLine("Your Balance is: " + InitializeClass.balance);
+            Console.WriteLine("|Press enter to go back to the Menu|");
+            Console.ReadLine();
             MenuATMClass menuATMClass = new MenuATMClass();
             MenuATMClass.MenuATM();
 

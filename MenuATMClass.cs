@@ -11,7 +11,7 @@ namespace ATM
         public static void MenuATM() 
         {
             Console.Clear();
-            Console.WriteLine("(1)DEPOSIT", "(2)WITHDRAW", "(3)CHANGE PIN", "(4)CHECK BALANCE", "(5)TRANSFER MONEY", "(6)PAY BILLS", "(7)EXIT");
+            Console.WriteLine("(1)DEPOSIT (2)WITHDRAW (3)CHANGE PIN (4)CHECK BALANCE (5)TRANSFER MONEY (6)PAY BILLS (7)EXIT");
             
             switch (Convert.ToInt32(Console.ReadLine()))
             {
